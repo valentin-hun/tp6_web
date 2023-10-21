@@ -1,0 +1,85 @@
+header, nav, body, footer, main, article, section, aside, tr, div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+nav{
+    text-align: center;
+}
+
+table{
+    display: table;
+    flex-grow: 1;
+}
+
+td{
+    display: inline;
+    flex-grow: 1;    
+}
+
+main{
+    flex-basis: 60%;
+    flex-grow: 1;
+}
+
+article img{
+    width: auto;
+    height : 70%;
+    align-self: center;
+}
+
+div{
+    flex-basis: 60%;
+    flex-grow: 1;
+}
+
+h2{
+    align-self: center;
+    flex-basis: 100%;
+}
+
+div p{
+    align-self: flex-start;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+aside{
+    flex-basis: 30%;
+    align-items: stretch;
+    flex-grow: 0;
+}
+
+aside section{
+    justify-content: center;
+}
+
+aside p{
+    flex-basis: 80%;
+    align-self: center;
+}
+
+ul{
+    display: list-item;
+    list-style: none;
+    flex-basis: 100%;
+}
+
+li{
+    margin-right: 70%;
+    margin-left: -2em;
+}
+
+aside img{
+    width: auto;
+    height: 60%;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.artcarte{
+    flex-grow: 0;
+    flex-basis: 60%;
+}

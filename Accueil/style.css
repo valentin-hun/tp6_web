@@ -1,0 +1,51 @@
+header, aside, footer, main{
+    margin: 20px;
+    padding: 20px;
+}
+
+header, aside, footer, td, li{
+    border: solid thin black;
+}
+
+header, footer{
+    background-color: rgb(222, 222, 222)
+}
+
+nav{
+    margin: 20px;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p, td, li{
+    font-size: 1.1em;
+}
+
+main p, main h2{
+    margin: 20px;
+}
+
+a{
+    margin-left: 0.5em;
+    text-decoration: none;
+    color: black;
+}
+
+strong{
+    font-size: 1.3em;
+}
+
+aside img{
+    width: auto;
+    height: 60%;
+}
+
+.artcarte{
+    background-color: lightcyan;
+}
