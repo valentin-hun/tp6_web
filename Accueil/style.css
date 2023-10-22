@@ -11,8 +11,12 @@ header, footer{
     background-color: rgb(222, 222, 222)
 }
 
-nav{
+nav, main img{
     margin: 20px;
+}
+
+main article{
+    margin-bottom: 20px;
 }
 
 h1{
@@ -29,6 +33,11 @@ p, td, li{
 
 main p, main h2{
     margin: 20px;
+}
+
+article img{
+    height: 260px;
+    width: auto;
 }
 
 a{

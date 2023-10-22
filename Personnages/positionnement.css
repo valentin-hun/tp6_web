@@ -5,6 +5,10 @@ header, nav, body, footer, main, article, section, aside, tr, div{
     flex-grow: 1;
 }
 
+header{
+    justify-content: center;
+}
+
 nav{
     text-align: center;
 }
